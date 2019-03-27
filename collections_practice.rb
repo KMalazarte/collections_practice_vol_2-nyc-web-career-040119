@@ -82,5 +82,6 @@ def organize_schools(schools)
       new_hash[city].push(school)
     end
   end
-sorted_ha
+  
+new_hash
 end
