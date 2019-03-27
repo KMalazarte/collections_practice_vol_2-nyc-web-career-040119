@@ -72,6 +72,7 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
+  new_hash
   schools.each do |school, loc_hash|
     loc_hash.group_by do |key, value|
     end
