@@ -80,5 +80,6 @@ def organize_schools(schools)
     end
     if !new_hash[city].include?(school)
       new_hash[city].push(school)
+    end
   end
 end
