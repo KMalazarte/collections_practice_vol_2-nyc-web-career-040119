@@ -74,7 +74,7 @@ end
 def organize_schools(schools)
   new_hash= {}
   schools.each do |school, loc_hash|
-    loc_hash.group_by do |key, value|
+    loc_hash
     end
   end
 end
