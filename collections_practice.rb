@@ -78,6 +78,6 @@ def organize_schools(schools)
     if !new_hash[site]
       new_hash[site] = []
     end
-    if !new_hash[site]
+    if !new_hash[site].include
   end
 end
